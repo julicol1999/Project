@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-        
+st.header('Venta de coches representadas en gráficas')
 car_data = pd.read_csv('vehicles_us.csv')  # Leer los datos
 
 # Crear botones para cada gráfico
